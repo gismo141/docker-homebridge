@@ -1,0 +1,18 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+    "platforms": [
+        {
+            "platform": "Server",
+            "name": "Homebridge Server",
+            "port": 8765,
+            "log": "/var/log/homebridge.log",
+            "restart": "reboot"
+        }
+    ],
+    "accessories": []
+}
